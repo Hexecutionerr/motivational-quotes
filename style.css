@@ -1,0 +1,93 @@
+:root {
+    --bg: #0f172a;
+    --card: #0b1220;
+    --accent: #7dd3fc;
+    --text: #e6eef8;
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Inter, system-ui, sans-serif;
+    background: linear-gradient(180deg, var(--bg), #071024);
+    color: var(--text);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.quote-card {
+    width: 100%;
+    max-width: 720px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+    padding: 1.6rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(2, 6, 23, 0.6);
+}
+
+#quote {
+    font-size: 1.25rem;
+    margin: 0 0 .6rem;
+}
+
+#author {
+    font-size: .95rem;
+    color: #cde7fb;
+    margin: 0;
+    text-align: right;
+}
+
+.controls {
+    display: flex;
+    gap: .75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    background: var(--accent);
+    border: none;
+    padding: .6rem .9rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    transition: .15s ease;
+}
+
+footer {
+    opacity: .7;
+    font-size: .85rem;
+    margin-top: .5rem;
+}
+
+@media (max-width:480px) {
+    #quote {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.25rem
+    }
+}
