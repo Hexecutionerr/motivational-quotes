@@ -1,0 +1,20 @@
+{
+  "name": "captioncraft-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Social Content Generation SaaS",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "seed": "cd server && node seeds/index.js",
+    "start": "cd server && node server.js",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "author": "Hasnain Khan",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
