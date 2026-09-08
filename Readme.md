@@ -177,22 +177,6 @@ graph TD
 
 ---
 
-## 🔌 API & System Contracts
-
-The backend server exposes clean, standardized REST endpoints under `/api`:
-
-| Method | Endpoint | Description | Auth Required |
-|:---:|:---|:---|:---:|
-| `POST` | `/api/generate/captions` | Generates tailored captions + hashtags based on mood/niche | ❌ No |
-| `POST` | `/api/generate/quotes` | Generates AI motivational & contextual quotes | ❌ No |
-| `POST` | `/api/generate/post-ideas`| Brainstorms creative visual ideas and hooks | ❌ No |
-| `POST` | `/api/generate/chat` | Interactive conversational brainstorming stream | ❌ No |
-| `GET` | `/api/content` | Fetches paginated feed of quotes & social captions | ❌ No |
-| `POST` | `/api/save/toggle` | Toggles heart/favorite status for a quote | 🔒 Optional / JWT |
-| `POST` | `/api/auth/register` | Creates a new user profile with hashed credentials | ❌ No |
-| `POST` | `/api/auth/login` | Authenticates user and returns JWT bearer token | ❌ No |
-
----
 
 ## 💻 Tech Stack
 
