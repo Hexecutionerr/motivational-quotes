@@ -55,15 +55,13 @@
 
 <div align="center">
   <h3>🎬 Live Platform Demo & Walkthrough</h3>
-  <video src="https://github.com/Hexecutionerr/motivational-quotes/raw/main/screenshots/DemoVideo.mp4" width="760" controls="controls" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
-    <a href="https://github.com/Hexecutionerr/motivational-quotes/raw/main/screenshots/DemoVideo.mp4">▶️ Watch DemoVideo.mp4</a>
-  </video>
+  <img src="screenshots/demo.gif" alt="CaptionCraft AI Live Demo" width="760" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);" />
   <p align="center">
-    <em>End-to-end walkthrough demonstrating Gemini 2.0 Flash AI caption generation, conversational chatbot ideation, dynamic Masonry feeds, and instant clipboard workflows.</em>
+    <em>⚡ Continuous live demo: Gemini 2.0 Flash AI caption generation, real-time chatbot ideation, dynamic Masonry feeds, and instant clipboard workflows.</em>
   </p>
   <p align="center">
     <a href="https://github.com/Hexecutionerr/motivational-quotes/raw/main/screenshots/DemoVideo.mp4">
-      <img src="https://img.shields.io/badge/▶️_Watch_Demo_Video-73_MB_MP4-6366f1?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo Video" />
+      <img src="https://img.shields.io/badge/▶️_Watch_Full_HD_Video-73_MB_MP4-6366f1?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Full HD Video" />
     </a>
   </p>
 </div>
