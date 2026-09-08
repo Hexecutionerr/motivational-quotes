@@ -55,14 +55,14 @@
 
 <div align="center">
   <h3>🎬 Live Platform Demo & Walkthrough</h3>
-  <video src="screenshots/DemoVideo.mp4" width="760" controls="controls" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
-    <a href="screenshots/DemoVideo.mp4">▶️ Watch DemoVideo.mp4</a>
+  <video src="https://github.com/Hexecutionerr/motivational-quotes/raw/main/screenshots/DemoVideo.mp4" width="760" controls="controls" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
+    <a href="https://github.com/Hexecutionerr/motivational-quotes/raw/main/screenshots/DemoVideo.mp4">▶️ Watch DemoVideo.mp4</a>
   </video>
   <p align="center">
     <em>End-to-end walkthrough demonstrating Gemini 2.0 Flash AI caption generation, conversational chatbot ideation, dynamic Masonry feeds, and instant clipboard workflows.</em>
   </p>
   <p align="center">
-    <a href="screenshots/DemoVideo.mp4">
+    <a href="https://github.com/Hexecutionerr/motivational-quotes/raw/main/screenshots/DemoVideo.mp4">
       <img src="https://img.shields.io/badge/▶️_Watch_Demo_Video-73_MB_MP4-6366f1?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo Video" />
     </a>
   </p>
